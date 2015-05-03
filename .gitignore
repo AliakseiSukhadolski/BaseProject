@@ -6,3 +6,6 @@ Project/com.danco.d3.model/.settings/
 Project/com.danco.d3.model/target/classes/com/danco/d3/model/base/AbstractBaseEntity.class
 Project/com.danco.d3.model/target/classes/com/danco/d3/model/base/BaseEntity.class
 BaseProject/*/.settings/*
+BaseProject/com.danco.d3.model/*/.settings/*
+BaseProject/com.danco.d3.api/com.danco.d3.api.service/.settings/
+BaseProject/com.danco.d3.api/com.danco.d3.api.dao/.settings/

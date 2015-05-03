@@ -3,21 +3,30 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.danco.d3</groupId>
 	<artifactId>com.danco.d3</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${project_version}</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>com.danco.d3.api.dao</module>
+		<module>com.danco.d3.api</module>
 		<module>com.danco.d3.model</module>
 	</modules>
-	<plugins>
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.3</version>
-			<configuration>
-				<source>1.8</source>
-				<target>1.8</target>
-			</configuration>
-		</plugin>
-	</plugins>
+	
+	<properties>
+		<source_version>1.8</source_version>
+		<target_version>1.8</target_version>
+		<project_version>0.0.1-SNAPSHOT</project_version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${source_version}</source>
+					<target>${target_version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
 </project>

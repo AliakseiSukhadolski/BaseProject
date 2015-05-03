@@ -2,11 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.danco.d3</groupId>
-		<artifactId>com.danco.d3</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>com.danco.d3.api</groupId>
+		<artifactId>com.danco.d3.api</artifactId>
+		<version>${project_version}</version>
 	</parent>
-	<groupId>com.danco.d3.api.dao</groupId>
-	<artifactId>com.danco.d3.api.dao</artifactId>
-	<description>Dao api project</description>
+	<groupId>com.danco.d3.api.service</groupId>
+	<artifactId>com.danco.d3.api.service</artifactId>
 </project>

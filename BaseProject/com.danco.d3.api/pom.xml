@@ -6,11 +6,11 @@
 		<artifactId>com.danco.d3</artifactId>
 		<version>${project_version}</version>
 	</parent>
-	<groupId>com.danco.d3.model</groupId>
-	<artifactId>com.danco.d3.model</artifactId>
+	<groupId>com.danco.d3.api</groupId>
+	<artifactId>com.danco.d3.api</artifactId>
 	<packaging>pom</packaging>
-
 	<modules>
-		<module>com.danco.d3.model.entity</module>
+		<module>com.danco.d3.api.dao</module>
+		<module>com.danco.d3.api.service</module>
 	</modules>
 </project>
