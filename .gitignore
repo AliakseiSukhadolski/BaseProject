@@ -1,0 +1,7 @@
+*.project
+*.classpath
+Project/.settings/*
+*/.settings/*
+Project/com.danco.d3.model/.settings/
+Project/com.danco.d3.model/target/classes/com/danco/d3/model/base/AbstractBaseEntity.class
+Project/com.danco.d3.model/target/classes/com/danco/d3/model/base/BaseEntity.class
