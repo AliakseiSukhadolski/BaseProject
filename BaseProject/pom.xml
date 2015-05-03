@@ -8,6 +8,8 @@
 	<modules>
 		<module>com.danco.d3.api</module>
 		<module>com.danco.d3.model</module>
+		<module>com.danco.d3.web</module>
+		<module>com.danco.d3.service</module>
 	</modules>
 	
 	<properties>
